@@ -1,0 +1,24 @@
+{
+  "name": "gerador-de-codigo-qr-com-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "node --env-file=.env --watch src/index.js"
+  },
+  "keywords": [
+    "e-commerce",
+    "utilidades",
+    "ferramentas",
+    "QR-Code Generator",
+    "Password Generator"
+  ],
+  "author": "Alves Hatewa",
+  "license": "MIT",
+  "description": "Kit de ferramentas de utilidade para e-commerces",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
